@@ -1,3 +1,5 @@
+cmake
+dlib-bin
 streamlit
 face_recognition
 numpy<2
