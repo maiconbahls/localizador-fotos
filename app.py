@@ -94,7 +94,8 @@ if st.button("🚀 INICIAR BUSCA", type="primary"):
                                     nomes_encontrados.append(arquivo.name)
                                     
                         except Exception as e:
-                            print(f"Erro ao ler arquivo {arquivo.name}: {e}")
+                            # Ignora erros de leitura e continua
+                            pass
 
                     # --- RESULTADOS ---
                     if len(fotos_encontradas) > 0:
